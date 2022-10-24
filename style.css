@@ -51,7 +51,7 @@
 }
 
 .terraheader img{
-    width: 50%;
+    width: 20%;
 }
 
 .hide{
@@ -264,6 +264,7 @@ html {
     pointer-events: none;
     transition: all .4s;
   }
+
   
   .to-top.active {
     bottom:32px;
@@ -279,7 +280,7 @@ html {
 
  @media (max-width: 800px){
     .hide{
-        display:none;
+        display: none;
     }
  }
   
@@ -324,4 +325,4 @@ html {
         text-align: center;
         width: 100%;
     }
- }
+}
