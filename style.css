@@ -290,8 +290,10 @@ html {
  }
 
  @media (max-width: 800px) and (min-width: 200px){
-    .content-right{
-        display:none;
+    .content-right img{   
+        margin-left: 10px;
+        margin-top: 40px;
+        width: 50%;
     }
  }
 
@@ -347,9 +349,14 @@ html {
         margin-right: 60px;
         font-size: 11px;
         padding: 20px 0;
-    
     }
-    
 
+    .image1{
+        background-size: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        padding-bottom: 20px;
+    }
 
 }
