@@ -50,6 +50,14 @@
 
 }
 
+.terraheader img{
+    width: 50%;
+}
+
+.hide{
+    align: center;
+}
+
 .btn-box .fa{
     margin-right: 20px;
     color: #fff;
@@ -263,26 +271,40 @@ html {
     opacity:1;
   }
 
-  @media (max-width: 900px) and (min-width: 300px){
+  @media (min-width: 800px){
+    .terraheader{
+        display:none;
+    }
+ }
+
+ @media (max-width: 800px){
+    .hide{
+        display:none;
+    }
+ }
+  
+  @media (max-width: 800px) and (min-width: 200px){
     .content{
         display:block;
     }
  }
 
- @media (max-width: 900px) and (min-width: 300px){
+ @media (max-width: 800px) and (min-width: 200px){
     .content-right{
         display:none;
     }
  }
 
- @media (max-width: 900px) and (min-width: 300px){
+ @media (max-width: 800px) and (min-width: 200px){
 
     .btn-box img{
-        margin-right: 10px;
+        margin-right: 0px;
     }
 
     .btn-box button{
-        padding: 11px auto;
+        padding: 2px;
+        margin-left: 3px;
+        margin-top: 20px;
     }
 
     .anav1{
