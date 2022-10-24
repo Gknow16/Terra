@@ -303,7 +303,7 @@ html {
 
     .btn-box button{
         padding: 2px;
-        margin-left: 2px;
+        margin-left: 1px;
         margin-top: 20px;
     }
 
@@ -330,6 +330,26 @@ html {
         height: 20px;
         font-size: 15px;     
     }
+
+    .content-left a{
+        width: 150px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 7px 7px;
+        border-radius: 20px;
+        text-decoration: none;
+        background: linear-gradient(to left, #8168fe 0%, #58baff 100%);
+        color:#fff;
+        text-align: center;
+    }
+
+    .content-left p{
+        margin-right: 60px;
+        font-size: 11px;
+        padding: 20px 0;
+    
+    }
+    
 
 
 }
