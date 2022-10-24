@@ -6,9 +6,17 @@
 
 .hero{
     width: 80%;
-    height: 150%;
+    height: 130%;
     position: relative;
     margin: 15px auto;
+    overflow: hidden;
+}
+
+.hero1{
+    width: 80%;
+    height: 220px;
+    position: relative;
+    margin: 100px auto;
     overflow: hidden;
 }
 
