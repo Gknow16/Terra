@@ -6,7 +6,7 @@
 
 .hero{
     width: 80%;
-    height: 130%;
+    height: 90%;
     position: relative;
     margin: 15px auto;
     overflow: hidden;
@@ -15,9 +15,21 @@
 .hero1{
     width: 80%;
     height: 220px;
-    position: relative;
     margin: 100px auto;
-    overflow: hidden;
+}
+
+.hero1 img{
+    margin-bottom: 30px;
+}
+
+.hero2{
+    width: 80%;
+    height: 100px;
+    margin: 100px auto;
+}
+
+.hero2 img{
+    margin-bottom: 30px;
 }
 
 .body{
@@ -284,6 +296,7 @@ html {
         display:none;
     }
  }
+ 
 
  @media (max-width: 800px){
     .hide{
@@ -365,6 +378,12 @@ html {
         max-height: 100%;
         width: 100%;
         padding-bottom: 20px;
+    }
+
+    .features{
+        padding: 0px;
+        margin-top: 650px;
+        
     }
 
 }
