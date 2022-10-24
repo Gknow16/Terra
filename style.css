@@ -295,7 +295,7 @@ html {
     }
  }
 
- @media (max-width: 800px) and (min-width: 200px){
+ @media (max-width: 800px) and (min-width: 100px){
 
     .btn-box img{
         margin-right: 0px;
