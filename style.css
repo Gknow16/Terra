@@ -179,6 +179,8 @@
 
 .content-left{
     flex-basis: 50%;
+    animation: fadeIn 8s;
+    animation-delay: 3.2s;
 }
 
 .content-left p{
@@ -212,6 +214,8 @@
 
 .content-right img{
     margin-left:150px;
+    animation: fadeIn 8s;
+    animation-delay: 3.2s;
 }
 
 #content1{
@@ -278,6 +282,16 @@
         visibility: hidden;
     }
 }
+
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+@keyframes mymove {
+    from {right: 0px;}
+    to {right: 200px;}
+  }
 
 .thumb {
     height: 100px;
@@ -445,5 +459,10 @@ html {
 
     .table{
         margin-top: -40px;
+    }
+
+    .team img{
+        width: 50px;
+        height: 60px;
     }
  }

@@ -29,16 +29,18 @@
             <button><a class="anav" href="#market">MARKET</a></button>
             <button><a class="anav" href="#product">PRODUCT</a></button>
             <button><a class="anav" href="#timeline">TIMELINE</a></button>
-            <button class="anav" id="btn1" onclick="openTEAM()">TEAM</button>
+            <button class="anav" id="btn6" onclick="openTEAM()">TEAM</button>
             <button><a class="anav" href="#opportunity">OPPORTUNITY</a></button>
             <button><a class="anav" href="#partners">PARTNERS</a></button>
             <button class="anav" id="btn1" onclick="openCONTACT()">CONTACT US</button>
         </div>
-        
+
+        <!--
         <div class="loader">
             <img src="img/gif3.gif" alt="Loading..." />
-        </div>
-        
+         </div>
+         -->
+
         <script type="text/javascript">
             window.addEventListener("load", function () {
             const loader = document.querySelector(".loader");
@@ -60,8 +62,7 @@
             <div class="content-right">
                 <img src="img/SideLogo.png">
             </div>
-        </div>
-        
+        </div> 
     </div>
 
     <div class="hero2">
@@ -90,16 +91,37 @@
     <div id="timeline" class="image1">
         <img src="img/Timeline (1).png" width="100%">
     </div>
+    
+    
+    <!--Team-->
+    <div id="content6" class="team" align="center">
+        <p></p>
+        <img src="img/fwdterrateam/Laurian.png">
+        <img src="img/fwdterrateam/Gendel.png">
+        <img src="img/fwdterrateam/Zeus.png">
+        <p></p>
+        <img src="img/fwdterrateam/Paul.png">
+        <img src="img/fwdterrateam/Giovanne.png">
+        <p></p>
+        <img src="img/fwdterrateam/Bits.png">
+        <img src="img/fwdterrateam/Rendon.png">
+        <p></p>
+        <img src="img/fwdterrateam/Kean.png">
+        <img src="img/fwdterrateam/Benzel.png">
+        <img src="img/fwdterrateam/Jimpaul.png">
+        <img src="img/fwdterrateam/Maxuel.png">
+    </div>    
+    
     <div class="hero1">
     <div id="opportunity" align="center"><img src="img/Opportunity.png" width="200px" height="40px">
         <p class="font">Here's a great news for you! We are looking for Investors!
         The project is currently conductiong its Pre-seed funding,
-    this may be your chance to be part of a company with massive potential!
+        this may be your chance to be part of a company with massive potential!
 
-    If you are interested, you may contact our CEO through LinkedIn or Facebook
-    Or email us you intention to invest at www.Terra.com
-    <br>
-    <br>
+        If you are interested, you may contact our CEO through LinkedIn or Facebook
+        Or email us you intention to invest at www.Terra.com
+        <br>
+        <br>
     <spam style="font-family: italic;">"Nothing is more expensive than a missed opportunity."
         - H. Jackson Brown Jr.
     </spam>
@@ -226,15 +248,15 @@
             content1.style.transform = "translateX(100%)";
             content2.style.transform = "translateX(100%)";
             content3.style.transform = "translateX(100%)";
-            content4.style.transform = "translateX(0)";
+            content4.style.transform = "translateX(100%)";
             content5.style.transform = "translateX(100%)";
-            content6.style.transform = "translateX(100%)";
+            content6.style.transform = "translateX(0)";
             btn1.style.color = "#000";
             btn2.style.color = "#000";
             btn3.style.color = "#000";
-            btn4.style.color = "#fff";
+            btn4.style.color = "#000";
             btn5.style.color = "#000";
-            btn6.style.color = "#000";
+            btn6.style.color = "#fff";
         }
 
         function openOPPORTUNITY(){
