@@ -20,15 +20,23 @@
 
 .hero1 img{
     margin-bottom: 30px;
+    margin-top: -20px;
 }
 
 .hero2{
     width: 80%;
     height: 100px;
     margin: 100px auto;
+    margin-bottom: 190px;
 }
 
 .font{
+    color:white;
+    font-style: italic; 
+    font-size: 20px;
+}
+
+.font1{
     color:white;
     font-style: italic; 
     font-size: 20px;
@@ -175,7 +183,6 @@
 
 .content-left p{
     margin-right: 60px;
-    font-size: 13px;
     padding: 70px 0;
 
 }
@@ -237,6 +244,10 @@
     padding: 0px;
     color: #fff;
     text-align: center;
+}
+
+.table{
+    margin-top: -30px;
 }
 
 .loader {
@@ -357,6 +368,10 @@ html {
         padding: 1px;
     }
 
+    .footer{
+        margin-top: -1px;
+    }
+
     .content-left p{
         text-align: center;
         width: 100%;
@@ -426,5 +441,9 @@ html {
         width: 80%;
         height: 100px;
         margin: 150px auto;
+    }
+
+    .table{
+        margin-top: -40px;
     }
  }
