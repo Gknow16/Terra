@@ -441,7 +441,7 @@ html {
     }
  }
 
- @media (max-width: 900px) and (min-width: 200px){
+ @media (max-width: 800px) and (min-width: 200px){
 
     .btn-box img{
         margin-right: 0px;
@@ -547,8 +547,8 @@ html {
     }
 
     .exe img{
-        width: 90px;
-        height: 90px;
+        width: 70px;
+        height: 70px;
     }
 
     .exe table{
@@ -563,8 +563,8 @@ html {
 
     .image {
         position: relative;
-        width: 90px;
-        height: 95px;
+        width: 70px;
+        height: 75px;
         margin-left: 5px;
         margin-top: 3px;
         margin-bottom: 3px;
