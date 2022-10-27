@@ -238,6 +238,10 @@
     padding-top: 0px;
 }
 
+.exe2 img{
+    padding-top: 0px;
+}
+
 #btn1{
     color: #fff;
 }
@@ -559,6 +563,11 @@ html {
     .exe1 img{
         width: 80px;
         height: 10px;
+    }
+
+    .exe2 img{
+        width: 80px;
+        height: 20px;
     }
 
     .image {
