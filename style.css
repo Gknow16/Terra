@@ -165,6 +165,7 @@
     background-size: 100%;
     max-width: 100%;
     max-height: 100%;
+    margin-top: 210px;
     width: 100%;
 }
 
@@ -173,6 +174,7 @@
     max-width: 100%;
     max-height: 100%;
     width: 100%;
+    margin-top: 100px;
 }
 
 .content{
@@ -231,7 +233,7 @@
 }
 
 .exe{
-    padding-top: 50px;
+    padding-top: 15px;
 }
 
 .exe1 img{
@@ -533,6 +535,7 @@ html {
         height: 170px;
         margin: 70px auto;
         margin-top: 50px;
+        margin-bottom: 100px;
     }
 
     .hero2{
@@ -562,7 +565,7 @@ html {
 
     .exe1 img{
         width: 80px;
-        height: 10px;
+        height: 20px;
     }
 
     .exe2 img{
@@ -635,6 +638,22 @@ html {
     .iframe{
         width: 190px;
         height: 80px;
+    }
+
+    .image2{
+        background-size: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        margin-top: -1px;
+    }
+
+    .image3{
+        background-size: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        margin-top: -1px;
     }
     
  }
