@@ -631,5 +631,10 @@ html {
         font-size: 0.7vw;
         margin-top: 0.25em;
     }
+
+    .iframe{
+        width: 150px;
+        height: 70px;
+    }
     
  }
