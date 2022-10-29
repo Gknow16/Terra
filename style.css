@@ -687,26 +687,26 @@ html {
     }
  }
 
- @media (max-width: 1000px){
+ @media (max-width: 1000px) and (min-width: 810px){
     .hide{
         display: none;
     }
 
-@media (max-width: 1000px){
+@media (max-width: 1000px) and (min-width: 810px){
     .under{
          display: none;
     }
 
  }
 
- @media (max-width: 1000px){
+ @media (max-width: 1000px) and (min-width: 810px){
     .btn-box{
         display: none;
     }
  }
 
 
- @media (max-width: 1000px) and (min-width: 200px){
+ @media (max-width: 1000px) and (min-width: 810px){
     .content-right img{   
         margin-left: 10px;
         margin-top: 40px;
@@ -714,7 +714,7 @@ html {
     }
  }
 
- @media (max-width: 1000px) and (min-width: 200px){
+ @media (max-width: 1000px) and (min-width: 810px){
 
     .btn-box img{
         margin-right: 0px;
